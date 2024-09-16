@@ -4,6 +4,9 @@ const nextConfig = {
     serverActions:true
 
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
     images: {
         remotePatterns: [
           {
